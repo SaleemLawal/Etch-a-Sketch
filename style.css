@@ -109,6 +109,11 @@ main{
     height: 500px;
     border: none;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-item {
+    box-sizing: border-box;
 }
 
 footer {
